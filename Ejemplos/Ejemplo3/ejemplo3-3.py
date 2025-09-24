@@ -1,4 +1,4 @@
-num = input("Introduce un número: ")
-num = int(num) # Convertir a entero
-num *= 2
-print("El doble es: " + str(num))
+firstnum = int(input("Introduce un número: "))
+secondnum = int(input("Introduce otro número: "))
+firstnum *= secondnum
+print("El resultado es: " + str(firstnum))
